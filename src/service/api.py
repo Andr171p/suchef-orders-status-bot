@@ -3,7 +3,7 @@ from typing import Any, Dict
 
 from src.utils import validate_phone, format_phone
 from src.service.logger import logger
-from src.config import config
+from src.config import settings
 
 
 def is_ok(response: aiohttp.ClientResponse) -> bool:
@@ -20,8 +20,8 @@ async def get_user_orders(phone: str) -> Dict[str, Any]:
     try:
         async with aiohttp.ClientSession() as session:
             async with session.post(
-                url=config.api.url,
-                headers=config.api.headers,
+                url=settings.orders_api.url,
+                headers=settings.orders_api.headers,
                 json=data
             ) as response:
                 if is_ok(response=response):
