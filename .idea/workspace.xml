@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507f2aaa-f065-45af-8141-7dba69150640" name="Changes" comment="[suchef-orders-status-bot] 20.12.2024 production v1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="507f2aaa-f065-45af-8141-7dba69150640" name="Changes" comment="[suchef-orders-status-bot] 20.12.2024 new auth message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734682093434</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[suchef-orders-status-bot] 20.12.2024 new auth message">
+      <option name="closed" value="true" />
+      <created>1734684728283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734684728283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +168,7 @@
     <MESSAGE value="[suchef-orders-status-bot] 18.12.2024 fix" />
     <MESSAGE value="[suchef-orders-status-bot] 18.12.2024 fix project filter" />
     <MESSAGE value="[suchef-orders-status-bot] 20.12.2024 production v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="[suchef-orders-status-bot] 20.12.2024 production v1" />
+    <MESSAGE value="[suchef-orders-status-bot] 20.12.2024 new auth message" />
+    <option name="LAST_COMMIT_MESSAGE" value="[suchef-orders-status-bot] 20.12.2024 new auth message" />
   </component>
 </project>
